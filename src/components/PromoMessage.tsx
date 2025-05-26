@@ -96,18 +96,10 @@ const PromoMessage: React.FC = () => {
 
       <div className="max-w-[400px] mx-auto">
         <a 
-          href="javascript:void(0)" 
-          data-fornpay="qiarlsak6w" 
+          href="https://go.tribopay.com.br/euqem" 
           className="fornpay_btn bg-gradient-to-b from-[#00cc66] to-[#00a352] text-white font-arial text-lg py-3 px-6 rounded-lg border border-[#00b359] block text-center mb-3 hover:opacity-90 transition-opacity"
         >
           SIM, EU ACEITO ESSA OFERTA
-        </a>
-        <a 
-          href="javascript:void(0)" 
-          data-downsell="https://tecnicasedesejo.shop/promocaoexclusiva2/" 
-          className="fornpay_downsell text-[#FF0000] font-arial text-base text-center block hover:underline"
-        >
-          Vou recusar essa oferta
         </a>
       </div>
     </div>
