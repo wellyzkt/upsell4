@@ -138,7 +138,7 @@ const ProductBenefits: React.FC = () => {
 
           <div className="max-w-[400px] mx-auto">
             <a 
-              href="https://go.tribopay.com.br/euqem" 
+              href="https://www.ggcheckout.com/checkout/v2/aGyUQ3Md5SuIePtaFuG9" 
               className="fornpay_btn bg-gradient-to-b from-[#00cc66] to-[#00a352] text-white font-arial text-lg py-3 px-6 rounded-lg border border-[#00b359] block text-center mb-3 hover:opacity-90 transition-opacity"
             >
               SIM, EU ACEITO ESSA OFERTA
