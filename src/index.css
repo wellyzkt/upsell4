@@ -54,26 +54,39 @@ html {
   }
 }
 
-/* Font family override for one-click buttons */
-.fornpay_btn,
-.fornpay_downsell {
+/* Pepper Pay button styles */
+.pepper_btn {
+  background: #3d94f6 !important;
+  background-image: -webkit-linear-gradient(top, #3d94f6, #1e62d0) !important;
+  background-image: -moz-linear-gradient(top, #3d94f6, #1e62d0) !important;
+  background-image: -ms-linear-gradient(top, #3d94f6, #1e62d0) !important;
+  background-image: -o-linear-gradient(top, #3d94f6, #1e62d0) !important;
+  background-image: -webkit-gradient(to bottom, #3d94f6, #1e62d0) !important;
+  -webkit-border-radius: 10px !important;
+  -moz-border-radius: 10px !important;
+  border-radius: 10px !important;
+  color: #fff !important;
   font-family: Arial, sans-serif !important;
+  font-size: 18px !important;
+  font-weight: 100 !important;
+  padding: 10px 20px !important;
+  border: 1px solid #337fed !important;
+  text-decoration: none !important;
+  display: block !important;
+  cursor: pointer !important;
+  text-align: center !important;
 }
 
-/* Override one-click button styles */
-.fornpay_btn {
-  background: #00cc66 !important;
-  background-image: -webkit-linear-gradient(top, #00cc66, #00a352) !important;
-  background-image: -moz-linear-gradient(top, #00cc66, #00a352) !important;
-  background-image: -ms-linear-gradient(top, #00cc66, #00a352) !important;
-  background-image: -o-linear-gradient(top, #00cc66, #00a352) !important;
-  background-image: -webkit-gradient(to bottom, #00cc66, #00a352) !important;
-  border-color: #00b359 !important;
-}
-
-/* Override downsell button color */
-.fornpay_downsell {
-  color: #FF0000 !important;
+.pepper_downsell {
+  color: #004faa !important;
+  font-family: Arial, sans-serif !important;
+  margin-top: 10px !important;
+  font-size: 16px !important;
+  font-weight: 100 !important;
+  text-decoration: none !important;
+  display: block !important;
+  cursor: pointer !important;
+  text-align: center !important;
 }
 
 .container {

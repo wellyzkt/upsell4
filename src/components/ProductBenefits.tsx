@@ -20,13 +20,15 @@ const ProductBenefits: React.FC = () => {
 
   // Add script loading effect
   React.useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://app.tribopay.com.br/js/oneclick.js';
-    script.async = true;
-    document.body.appendChild(script);
+    const pepperScript = document.createElement('script');
+    pepperScript.src = 'https://app.pepperpay.com.br/js/oneclick.js';
+    pepperScript.async = true;
+    document.body.appendChild(pepperScript);
 
     return () => {
-      document.body.removeChild(script);
+      if (document.body.contains(pepperScript)) {
+        document.body.removeChild(pepperScript);
+      }
     };
   }, []);
 
@@ -136,12 +138,20 @@ const ProductBenefits: React.FC = () => {
             </div>
           </div>
 
-          <div className="max-w-[400px] mx-auto">
+          <div style={{ width: 'auto', maxWidth: '400px', margin: '0 auto' }}>
             <a 
-              href="https://www.ggcheckout.com/checkout/v2/aGyUQ3Md5SuIePtaFuG9" 
-              className="fornpay_btn bg-gradient-to-b from-[#00cc66] to-[#00a352] text-white font-arial text-lg py-3 px-6 rounded-lg border border-[#00b359] block text-center mb-3 hover:opacity-90 transition-opacity"
+              href="javascript:void(0)" 
+              data-pepper="erzff8hfht" 
+              className="pepper_btn"
             >
               SIM, EU ACEITO ESSA OFERTA
+            </a>
+            <a 
+              href="javascript:void(0)" 
+              data-downsell="https://tecnicasedesejo.shop/promocaoparaselecionados/" 
+              className="pepper_downsell"
+            >
+              Vou recusar essa oferta
             </a>
           </div>
         </div>
